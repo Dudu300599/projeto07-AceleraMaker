@@ -77,8 +77,8 @@ Pressione **PF5** para buscar os dados.
 ![consulta](assets/out_1.png)
 ### 2. Atualização
 ![atualizacao](assets/out_2.png)
-### 2. Execução
-
+### 3. Execução
+![execucao](assets/execucao.gif)
 
 
 
