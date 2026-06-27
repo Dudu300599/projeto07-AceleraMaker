@@ -12,10 +12,3 @@ Este é um projeto de demonstração desenvolvido para o ambiente KICKS (emulado
 * Ambiente Hercules/TK5 configurado.
 * Acesso ao TSO/ISPF.
 * Biblioteca de cópia (Copybook) configurada corretamente.
-
-## Como Executar
-
-1.  **Preparar VSAM**: Submeta o job `VSAMP7.jcl` para criar o cluster VSAM necessário para armazenar os dados.
-2.  **Compilar Mapa**: Submeta o job de compilação do mapa (`MAPSP7`) para gerar o binário da tela e o arquivo de cópia (Copybook).
-3.  **Compilar Programa**: Submeta o job `COMPCOB.jcl` para realizar a pré-compilação, compilação COBOL e Link-Edit do programa.
-4.  **Executar**: No terminal KICKS, execute a transação correspondente (ex: `CLIE`).
