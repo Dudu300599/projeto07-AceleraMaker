@@ -68,8 +68,17 @@ Digite o código de cliente:
 ```text
 000001
 ```
-
 Pressione **PF5** para buscar os dados.
+
+
+## Evidências de Execução
+
+![consulta](assets/out_1.png)
+![atualizacao](assets/out_2.png)
+
+
+
+
 
 ## Evidências de Execução
 
