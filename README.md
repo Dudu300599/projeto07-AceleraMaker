@@ -73,12 +73,12 @@ Pressione **PF5** para buscar os dados.
 
 ## Evidências de Execução
 
+### 1. Consulta
 ![consulta](assets/out_1.png)
+### 2. Atualização
 ![atualizacao](assets/out_2.png)
+### 2. Execução
 
 
 
-
-
-## Evidências de Execução
 
