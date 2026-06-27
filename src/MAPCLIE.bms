@@ -1,35 +1,35 @@
- MAPCLIE DFHMSD TYPE=&SYSPARM,MODE=INOUT,LANG=COBOL,STORAGE=AUTO,       X
-                CTRL=(FREEKB,FRSET),TERM=3270-2                          
- TELACLI DFHMDI SIZE=(24,80)                                             
-         DFHMDF POS=(01,01),LENGTH=40,ATTRB=PROT,                       X
-                INITIAL='****************************************'       
-         DFHMDF POS=(02,01),LENGTH=40,ATTRB=PROT,                       X
-                INITIAL='* CONSULTA DE CLIENTES                 *'       
-         DFHMDF POS=(03,01),LENGTH=40,ATTRB=PROT,                       X
-                INITIAL='****************************************'       
-         DFHMDF POS=(05,01),LENGTH=15,ATTRB=PROT,                       X
-                INITIAL='CODIGO CLIENTE:'                                
- CODCLI  DFHMDF POS=(05,17),LENGTH=06,ATTRB=(UNPROT,NUM,IC)              
-         DFHMDF POS=(05,24),LENGTH=01,ATTRB=ASKIP                        
-         DFHMDF POS=(06,01),LENGTH=15,ATTRB=PROT,                       X
-                INITIAL='NOME..........:'                                
- NOME    DFHMDF POS=(06,17),LENGTH=30,ATTRB=PROT                         
-         DFHMDF POS=(07,01),LENGTH=15,ATTRB=PROT,                       X
-                INITIAL='TELEFONE......:'                                
- TELEFON DFHMDF POS=(07,17),LENGTH=15,ATTRB=UNPROT                       
-         DFHMDF POS=(07,33),LENGTH=01,ATTRB=ASKIP                        
-         DFHMDF POS=(08,01),LENGTH=15,ATTRB=PROT,                       X
-                INITIAL='CIDADE........:'                                
- CIDADE  DFHMDF POS=(08,17),LENGTH=20,ATTRB=UNPROT                       
-         DFHMDF POS=(08,38),LENGTH=01,ATTRB=ASKIP                        
-         DFHMDF POS=(10,01),LENGTH=15,ATTRB=PROT,                       X
-                INITIAL='MENSAGEM......:'                                
- MENSAGM DFHMDF POS=(10,17),LENGTH=40,ATTRB=PROT                         
-         DFHMDF POS=(12,01),LENGTH=11,ATTRB=PROT,                       X
-                INITIAL='PF3=SAIR'                                       
-         DFHMDF POS=(13,01),LENGTH=15,ATTRB=PROT,                       X
-                INITIAL='PF5=CONSULTAR'                                  
-         DFHMDF POS=(14,01),LENGTH=11,ATTRB=PROT,                       X
-                INITIAL='PF6=SALVAR'                                     
-         DFHMSD TYPE=FINAL                                               
-         END                                                             
+MAPCLIE DFHMSD TYPE=&SYSPARM,MODE=INOUT,LANG=COBOL,STORAGE=AUTO,       X
+               CTRL=(FREEKB,FRSET),TERM=3270-2                          
+TELACLI DFHMDI SIZE=(24,80)                                             
+        DFHMDF POS=(01,01),LENGTH=40,ATTRB=PROT,                       X
+               INITIAL='****************************************'       
+        DFHMDF POS=(02,01),LENGTH=40,ATTRB=PROT,                       X
+               INITIAL='* CONSULTA DE CLIENTES                 *'       
+        DFHMDF POS=(03,01),LENGTH=40,ATTRB=PROT,                       X
+               INITIAL='****************************************'       
+        DFHMDF POS=(05,01),LENGTH=15,ATTRB=PROT,                       X
+               INITIAL='CODIGO CLIENTE:'                                
+CODCLI  DFHMDF POS=(05,17),LENGTH=06,ATTRB=(UNPROT,NUM,IC)              
+        DFHMDF POS=(05,24),LENGTH=01,ATTRB=ASKIP                        
+        DFHMDF POS=(06,01),LENGTH=15,ATTRB=PROT,                       X
+               INITIAL='NOME..........:'                                
+NOME    DFHMDF POS=(06,17),LENGTH=30,ATTRB=PROT                         
+        DFHMDF POS=(07,01),LENGTH=15,ATTRB=PROT,                       X
+               INITIAL='TELEFONE......:'                                
+TELEFON DFHMDF POS=(07,17),LENGTH=15,ATTRB=UNPROT                       
+        DFHMDF POS=(07,33),LENGTH=01,ATTRB=ASKIP                        
+        DFHMDF POS=(08,01),LENGTH=15,ATTRB=PROT,                       X
+               INITIAL='CIDADE........:'                                
+CIDADE  DFHMDF POS=(08,17),LENGTH=20,ATTRB=UNPROT                       
+        DFHMDF POS=(08,38),LENGTH=01,ATTRB=ASKIP                        
+        DFHMDF POS=(10,01),LENGTH=15,ATTRB=PROT,                       X
+               INITIAL='MENSAGEM......:'                                
+MENSAGM DFHMDF POS=(10,17),LENGTH=40,ATTRB=PROT                         
+        DFHMDF POS=(12,01),LENGTH=11,ATTRB=PROT,                       X
+               INITIAL='PF3=SAIR'                                       
+        DFHMDF POS=(13,01),LENGTH=15,ATTRB=PROT,                       X
+               INITIAL='PF5=CONSULTAR'                                  
+        DFHMDF POS=(14,01),LENGTH=11,ATTRB=PROT,                       X
+               INITIAL='PF6=SALVAR'                                     
+        DFHMSD TYPE=FINAL                                               
+        END                                                             
